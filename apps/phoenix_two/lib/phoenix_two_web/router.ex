@@ -17,6 +17,7 @@ defmodule PhoenixTwoWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/today", PageController, :today
   end
 
   # Other scopes may use custom stacks.

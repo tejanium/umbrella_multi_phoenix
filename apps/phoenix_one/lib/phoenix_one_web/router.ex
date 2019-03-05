@@ -17,6 +17,7 @@ defmodule PhoenixOneWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/profile", PageController, :profile
   end
 
   # Other scopes may use custom stacks.
